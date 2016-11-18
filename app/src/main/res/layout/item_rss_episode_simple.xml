@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Episode URL:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/episodeUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Episode URL"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Episode Title:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/episodeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Episode Title"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Episode Description:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/episodeDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Episode Description"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Episode Image Link:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/episodeImageLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Episode Image Link"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Episode Author:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/episodeAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Episode Author"
+        android:textSize="24sp" />
+
+    <!--
+    private Date publicationDate;
+    private String id;
+    -->
+
+</LinearLayout>

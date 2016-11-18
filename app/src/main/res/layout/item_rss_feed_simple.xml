@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed URL:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/feedUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed URL"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed Title:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/feedTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed Title"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed Description:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/feedDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed Description"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed Image Link:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/feedImageLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed Image Link"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed Author:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/feedAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed Author"
+        android:textSize="24sp" />
+
+    <!--
+    private Date publicationDate;
+    -->
+
+</LinearLayout>

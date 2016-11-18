@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MikeMic</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_viewSubscriptions">View Subscriptions</string>
+    <string name="name_episodes">Episodes</string>
+    <string name="name_addSubscription">Add Subscription</string>
+    <string name="name_nowPlaying">Now Playing</string>
+    <string name="new_subscription_message">Feed URL here</string>
+    <string name="button_add_subscription">Add</string>
+</resources>
