@@ -34,6 +34,10 @@ public class PodcastEpisode
 
     // TODO - refcount?  for number of playlists this is in?
 
+    public PodcastEpisode()
+    {
+    }
+
     public PodcastEpisode(Item item)
     {
         this.url = item.getLink();
@@ -45,4 +49,37 @@ public class PodcastEpisode
         //this.id = item.getId();
         this.id = ""; // TODO - why is this getter not working?
     }
+
+    public static String SerializePodcastEpisodeToXml(PodcastEpisode episode)
+    {
+        return CreateDummyXml();
+    }
+
+    public static PodcastEpisode DeserializePodcastEpisodeFromXml(String xml)
+    {
+        return CreateDummyEpisode();
+    }
+
+    
+    public static String CreateDummyXml()
+    {
+        return "<Episode Url=\"\" PubDate=\"\" Title=\"\" Desc=\"\" Link=\"\" Auth=\"\" Id=\"\" />";
+    }
+
+    // TODO - dummy values
+    public static PodcastEpisode CreateDummyEpisode()
+    {
+        PodcastEpisode episode = new PodcastEpisode();
+
+        episode.url = "";
+        episode.publicationDate = new Date();
+        episode.title = "";
+        episode.description = "";
+        episode.imageLink = "";
+        episode.author = "";
+        episode.id = "";
+
+        return episode;
+    }
+
 }

@@ -202,4 +202,36 @@ public class PodcastFeed
         }
     }
     //*/
+
+    public static String SerializePodcastFeedToXml(PodcastEpisode episode)
+    {
+        return CreateDummyXml();
+    }
+
+    public static PodcastEpisode DeserializePodcastFeedFromXml(String xml)
+    {
+        return CreateDummyEpisode();
+    }
+
+
+    public static String CreateDummyXml()
+    {
+        return "<Episode Url=\"\" PubDate=\"\" Title=\"\" Desc=\"\" Link=\"\" Auth=\"\" Id=\"\" />";
+    }
+
+    // TODO - dummy values
+    public static PodcastEpisode CreateDummyEpisode()
+    {
+        PodcastEpisode episode = new PodcastEpisode();
+
+        episode.url = "";
+        episode.publicationDate = new Date();
+        episode.title = "";
+        episode.description = "";
+        episode.imageLink = "";
+        episode.author = "";
+        episode.id = "";
+
+        return episode;
+    }
 }
